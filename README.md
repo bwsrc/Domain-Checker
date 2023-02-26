@@ -5,13 +5,17 @@ Script to check if a domain name is available
 ruby and whois
 
 ## Installation
-Make sure you have ruby and whois installed on your system.
+Make sure you have ruby and whois installed on your system. Move dchecker.rb into a directory on your path like `~/bin` and make the script executable with `chmod +x dchecker.rb`
+
+### Linux (Debian)
 
 `sudo apt install ruby`
 
 `sudo apt install whois`
 
-Move dchecker.rb into a directory on your path like `~/bin` and make the script executable with `chmod +x dchecker.rb`
+### MacOS 
+
+`xcode-select --install`
 
 ## Usage
 ```
