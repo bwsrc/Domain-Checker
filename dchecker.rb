@@ -2,6 +2,8 @@
 
 require 'optparse'
 
+`which whois` == "" ? (puts "Missing dependency: whois"; exit) : ""
+
 ARGV << '-h' if ARGV.empty?
 
 class DomainChecker
